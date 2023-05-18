@@ -1,0 +1,51 @@
+
+body{
+  display: flex;
+  max-width: 400px;
+  margin: 2em auto;
+}
+
+.container{
+  border-radius: 2em;
+  padding: 2em;
+  background-color: aqua;
+  width: 100%;
+}
+.tabs{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.tab{
+  padding: 1rem;
+  border-radius: 0.4em;
+}
+/* hr{
+  margin: 2px solid orange ;
+  width: auto;
+} */
+
+.transaction-inputs{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input{
+  padding: 0.4em;
+}
+select{
+  padding: 0.4em;
+}
+
+.input{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.4em 0.6em;
+}
+
+#btn_add{
+  margin: 1em;
+  display: flex;
+  align-self: center;
+}
